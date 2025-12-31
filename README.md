@@ -1,38 +1,44 @@
+# Tosca Automation Project – MFA Authentication
 
-# Tosca Automation Project for MFA Authentication
+This repository demonstrates **hands-on automation and testing validation** for secure **Multi-Factor Authentication (MFA)** workflows using **Tricentis Tosca** and API testing practices.
 
-This project showcases sample automation and validation for secure Multi-Factor Authentication (MFA) using **Tricentis Tosca** and **API testing concepts**.
+It reflects skills used in real-world Banking Security Automation projects, covering authentication, session/token management, error handling, and compliance-focused testing.
 
-## Features Validated
-- Secure MFA login workflow
-- OTP verification and retry logic
-- Token generation, renewal, and expiry enforcement
-- Negative authentication testing (invalid, expired OTP)
-- Authentication lockout and session management
-- Role-based authorization validation
+---
 
-## Tools Used
-- **Tricentis Tosca** – UI & API automation
-- **Postman / Swagger** – API validation
-- **Azure DevOps / JIRA** – test & requirement tracking
-- **OAuth2.0 / JWT / SAML** – secure authentication protocols
+## 🚀 Features Covered
+✔ MFA login workflow automation  
+✔ Secure OTP verification  
+✔ Token generation, renewal, and expiry validations  
+✔ API scanning and validation  
+✔ Negative testing (invalid/expired credentials)  
+✔ Session timeout & lockout scenarios  
+✔ Role-based access verification
 
-## Role Performed
+---
+
+## 🛠 Tools & Technologies
+| Category | Tools |
+|----------|-------|
+| Automation | **Tricentis Tosca** |
+| API Validation | **Postman / Swagger** |
+| Protocols | **OAuth 2.0 | JWT | SAML** |
+| Test Mgmt / Tracking | **JIRA | Azure DevOps** |
+| Logging & Evidence | DevTools, Screenshots |
+| Test Design | Data-driven, Reusable modules |
+
+---
+
+## 👤 Role Performed
 **Test Specialist / Test Lead**
-- Led automation strategy for authentication workflows
-- Designed reusable Tosca modules & data-driven tests
-- Validated compliance, traceability & defect resolutions
-- Coordinated delivery with Dev & Security teams
 
-## Folder Structure
-```
-Tosca-Automation-MFA-Project/
-├── README.md
-├── test-cases/
-│   └── MFA_Test_Scenarios.txt
-├── screenshots/
-├── postman-collection/
-└── tosca-artifacts/
-```
+Key Responsibilities:
+- Led automation strategy and test design for MFA authentication.
+- Built reusable Tosca modules for secure authentication automation.
+- Validated API workflow, token enforcement, and negative test cases.
+- Coordinated defect triage and quality risk reporting.
+- Drove traceability, compliance, and end-to-end verification.
 
-*Last updated: 31 Dec 2025*
+---
+
+## 📁 Folder Structure
